@@ -1,0 +1,28 @@
+{
+  "name": "Neatify",
+  "version": "1.0.0",
+  "description": "GA Project 2",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsc397/Neatify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsc397/Neatify/issues"
+  },
+  "homepage": "https://github.com/jsc397/Neatify#readme"
+}
