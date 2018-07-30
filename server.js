@@ -10,4 +10,4 @@ app.set("view engine", "hbs")
 
 app.use(require('./routes/index.js'))
 
-app.listen(3000, () => console.log ("Locked and loaded on port 3000!"))
+app.listen(4000, () => console.log ("Locked and loaded on port 4000!"))
