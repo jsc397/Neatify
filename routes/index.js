@@ -1,6 +1,6 @@
 
-router.get("/", (req,res) => {
-    User.find{
-        res.render('index', { User })
-    }
-})
+// router.get("/", (req,res) => {
+//     User.find{
+//         res.render('index', { User })
+//     }
+// })
