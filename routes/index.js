@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
  
-router.get("/", controller.index)
-router.get("/user",Usercontroller.index)
-router.get("/solution",SolutionController.index)
+//Index page has all of the problems
+router.get("/", indexController.index)
+
 
 module.exports = router
