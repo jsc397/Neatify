@@ -1,5 +1,8 @@
 module.exports = {
     index: (req, res) => {
-        res.render("problems")
+                //query for your problems here and pass all the problems to the render, use 'find({})'
+
+        res.render("problems/problems")
     }
+    //create a show action/method here
 }

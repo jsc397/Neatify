@@ -10,8 +10,7 @@ app.set("view engine", "hbs")
 
 app.use(express.static('public/images')) //make images folder to use this
 app.use(express.static('public/css')) //link to css folder in public
-app.use(require('./routes/homepage.js'))
-app.use(require('./routes/problems.js'))
 
+app.use(require('./routes/index.js'))
 
 app.listen(4000, () => console.log ("Locked and loaded on port 4000!"))

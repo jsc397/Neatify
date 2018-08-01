@@ -16,5 +16,22 @@
             "email": "user3@gmail.com",
             "password": "passwordc"
         }
+    } 
+        "local" : {
+            "email": "user1@gmail.com",
+            "password": "passworda"
+        } 
+    },
+    {
+        "local" : {
+            "email": "user2@gmail.com",
+            "password": "passwordb"
+        }
+    }, 
+    { 
+        "local" : {
+            "email": "user3@gmail.com",
+            "password": "passwordc"
+        }
     }
 ]
