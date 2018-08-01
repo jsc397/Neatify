@@ -91,3 +91,8 @@ body {
   font-weight: 700;
 }
 
+
+/* Footer */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
