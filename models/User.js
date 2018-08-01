@@ -6,11 +6,11 @@ const User = new mongoose.Schema ({
         email: String,
         password: String
     }
-    // },
-    // solution: [
-    //     {type: Schema.Types.ObjectId,
-    //     ref: "Solution"}
-    // ]
+    },
+    solution: [
+        {type: Schema.Types.ObjectId,
+        ref: "Solution"}
+    ]
 });
 
 module.exports = mongoose.model("User", User)

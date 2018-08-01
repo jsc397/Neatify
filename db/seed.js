@@ -3,7 +3,7 @@ const { Solution } = require("../models/Solution")
 const seedData = require("./seeds.json")
 
 User.remove({})
-    .then( () => {
+    .then(() => {
         return User.collection.insert(seedData)
     })
     .then (() => {
