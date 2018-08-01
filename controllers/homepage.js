@@ -1,6 +1,5 @@
-
 module.exports ={
-    show: (req, res) => {
-        res.render("homepage")
+    index: (req, res) => {
+        res.render("homepage/homepage")
     }
 }

@@ -4,6 +4,6 @@ const hompageController = require("../controllers/homepage.js");
 
 //Homepage introduces the concept
 
-router.get("/", hompageController.show)
+router.get("/", hompageController.index)
 
 module.exports = router
