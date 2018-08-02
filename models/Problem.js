@@ -4,8 +4,7 @@ const Schema = mongoose.Schema;
 const Problem = new Schema({
     paragraph: String,
     solutions : [
-        {
-            type: Schema.Types.ObjectId,
+        { type: Schema.Types.ObjectId,
             ref: "Solution"
         }
     ]
