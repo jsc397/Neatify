@@ -5,7 +5,6 @@ const User = new mongoose.Schema ({
     local: {
         email: String,
         password: String
-    }
     },
     solution: [
         {type: Schema.Types.ObjectId,

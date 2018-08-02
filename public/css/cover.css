@@ -1,6 +1,4 @@
-/*
- * Globals
- */
+/* Globals */
 
 /* Links */
 a,
@@ -25,7 +23,15 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  /* background-color: #333; */
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+  url('../images/books.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* color: #fff;
+  height: 450px;
+  padding-top: 50px; */
 }
 
 body {
@@ -70,6 +76,11 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.cover-heading {
+  /* font-family: 'Andika', sans-serif; */
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 @media (min-width: 48em) {

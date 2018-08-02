@@ -7,3 +7,5 @@ const hompageController = require("../controllers/homepage.js");
 router.get("/", hompageController.index)
 
 module.exports = router
+
+//fix spelling homepage
