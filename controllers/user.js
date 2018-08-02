@@ -13,6 +13,10 @@ module.exports = {
                 res.render("user/show", { user });
             });
     },
+    new: (req, res) => {
+
+    },
+    
     // login: (req, res) => {
     //     res.render("user/login", {
     //         message: req.flash("signupMessage")

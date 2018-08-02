@@ -9,8 +9,6 @@ const Problem = new Schema({
         }
     ]
 
-})
+}) //testtesttesettesetgit
 
-module.exports = {
-        Problem: mongoose.model("Problem", Problem),
-};
+module.exports = mongoose.model("Problem", Problem);

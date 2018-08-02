@@ -1,16 +1,20 @@
-const Problems = require("../models/Problem")
+const Problem = require("../models/Problem")
 module.exports = {
     index: (req, res) => {
                 //query for your problems here and pass all the problems to the render, use 'find({})'
-        // Problems.find()
-        // .then(problem => {
-        //     console.log(problem)
-        //     res.render("problems/problems", { problem })
-        // })
+        Problem.find()
+        .then(problem => {
+            console.log("problem looks like this:")
+            console.log(problem)
+            let oneProblem = problem[0]
+            console.log("one problem looks like")
+            console.log(oneProblem)
+            res.render("problems/problems", { oneProblem })
+        })
         res.render("problems/problems")
     },
     create: (req,res) => {
-        Problems.find()
+        Problem.find()
         .then(problem => {
             console.log(problem)
             res.render("problems/problems", { problem })
