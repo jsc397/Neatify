@@ -10,6 +10,6 @@ const User = new mongoose.Schema ({
         {type: Schema.Types.ObjectId,
         ref: "Solution"}
     ]
-});
+})
 
 module.exports = mongoose.model("User", User)
