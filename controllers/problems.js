@@ -1,8 +1,8 @@
 const Problem = require("../models/Problem")
 module.exports = {
     index: (req, res) => {
-                //query for your problems here and pass all the problems to the render, use 'find({})'
-        Problem.find()
+     //query for your problems here and pass all the problems to the render, use 'find({})'
+        Problem.find({})
         .then(problem => {
             console.log("problem looks like this:")
             console.log(problem)
@@ -21,6 +21,11 @@ module.exports = {
             console.log(problem)
             res.render("problems/problems", { problem })
         })
-    }
+    },
     //create a show action/method here
+    show: (req,res) => {
+        Problem.findOne({ _id: req.params.id })
+        .populate("paragraph")
+        res.render("problems/problems")
+    }
 }
